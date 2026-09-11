@@ -1,0 +1,51 @@
+[
+  {
+    "system": "HMI Application (PanelView)",
+    "purpose": "HMI Utility Page Access",
+    "username": "TBD",
+    "password": "TBD",
+    "notes": "Role-based permissions enforced within the HMI"
+  },
+  {
+    "system": "HMI PanelView OS Access",
+    "purpose": "Used to exit the FactoryTalk View application",
+    "username": "TBD",
+    "password": "Contact IT",
+    "notes": "Base OS password"
+  },
+  {
+    "system": "HMI PanelView Recovery Phrase",
+    "purpose": "Used to recover password on base OS",
+    "username": "TBD",
+    "password": "TBD",
+    "notes": ""
+  },
+  {
+    "system": "HMI PanelView",
+    "purpose": "Admin Badge",
+    "username": "TBD",
+    "password": "TBD",
+    "notes": "For badge sign-on — add a row per badge"
+  },
+  {
+    "system": "Seam Tracker",
+    "purpose": "Configuration",
+    "username": "",
+    "password": "CONFI",
+    "notes": ""
+  },
+  {
+    "system": "Seam Tracker",
+    "purpose": "Calibration",
+    "username": "",
+    "password": "CALIB",
+    "notes": ""
+  },
+  {
+    "system": "EWON",
+    "purpose": "Used to configure EWON",
+    "username": "adm",
+    "password": "TBD",
+    "notes": "LAN login"
+  }
+]

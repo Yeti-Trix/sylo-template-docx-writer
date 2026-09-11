@@ -1,0 +1,28 @@
+{
+  "_doc": "Package default inject styles (controls-manual defaults). Copied to templates/manual-styles.json on first manual_start_project if missing. Python always loads this file first; workspace copy and section-catalog Document styles can override.",
+  "headings": {
+    "color": "#0E2841",
+    "levels": [1, 2, 3],
+    "apply_when_not_default": true
+  },
+  "layout": {
+    "blank_line_before_heading1": false,
+    "blank_line_before_heading2": true,
+    "heading1_page_break_before": true,
+    "trim_leading_trailing_blank_lines": true
+  },
+  "image_caption": {
+    "enabled": true,
+    "font_name": "Times New Roman",
+    "font_size_pt": 10,
+    "italic": true,
+    "prefix": "Figure",
+    "use_seq_field": true,
+    "word_style": "Caption",
+    "align": "center",
+    "blank_line_after": true
+  },
+  "image": {
+    "align": "center"
+  }
+}

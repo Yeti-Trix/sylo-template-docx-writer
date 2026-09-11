@@ -1,0 +1,10 @@
+{
+  "access": {
+    "header_match": "system",
+    "row_fields": ["system", "purpose", "username", "password", "notes"]
+  },
+  "revision": {
+    "header_match": "rev",
+    "row_fields": ["rev", "date", "description", "author"]
+  }
+}
