@@ -1,0 +1,45 @@
+{
+  "name": "sylo-template-docx-writer",
+  "version": "0.1.0",
+  "description": "Fill any standard Word .docx template — inject AI-authored sections, images, and tables from a template bundle. Generalizes the former manual-creator; controls manuals are one template.",
+  "type": "module",
+  "keywords": [
+    "pi-package"
+  ],
+  "pi": {
+    "extensions": [
+      "./extensions/index.ts"
+    ],
+    "skills": [
+      "./skills/template-docx-writer"
+    ]
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.84.2"
+  },
+  "dependencies": {
+    "typebox": "^1.1.24"
+  },
+  "license": "MIT",
+  "gitHead": "f05700bce9bf8ef8574894f24a8a3fa71da11d61",
+  "dist": {
+    "integrity": "sha512-mw+oRAa+yPJvj53yNCCPiOlQvawJclji15sy9f1tdBSOLHXtMCe6gneZR/yMzG1ROrb6QoNiznX2pd1PspZA2w==",
+    "shasum": "f5f9d16624bd4d35f5bb19bb8f468487e6d8db56",
+    "tarball": "https://registry.npmjs.org/sylo-template-docx-writer/-/sylo-template-docx-writer-0.1.0.tgz",
+    "fileCount": 19,
+    "unpackedSize": 164872,
+    "signatures": [
+      {
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U",
+        "sig": "MEUCIQCrJe8msrJV1TLyBoAGWYkha+kUXOPGrXO2eXkyi9PCnQIgFnMyMmM/G7g/Qf+eCSr4/u0YS2l8M8AAowKbpht7LKs="
+      }
+    ]
+  },
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "yeti-trix",
+      "email": "spencer.current@gmail.com"
+    }
+  ]
+}
