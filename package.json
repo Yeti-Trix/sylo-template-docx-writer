@@ -1,6 +1,6 @@
 {
   "name": "sylo-template-docx-writer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Fill any standard Word .docx template — inject AI-authored sections, images, and tables from a template bundle. Generalizes the former manual-creator; controls manuals are one template.",
   "type": "module",
   "keywords": [
