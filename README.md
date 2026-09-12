@@ -50,3 +50,10 @@ See **`skills/template-docx-writer/template-bundle.spec.md`** for the full file 
 Use with **pdf-reader** for PDF sources. Pulling pictures from a source `.docx` is in **sylo-docx** (`extract_docx_images` with `output_dir` = project `inputs/`).
 
 **Agent guidance:** Pi skill **`template-docx-writer`** (`skills/template-docx-writer/SKILL.md`) maps operator requests ("change heading color", "fix §4", "add figure") to the bundle's `manual-styles.json`, `section-catalog.md`, `state.json`, and `manual_*` tools.
+
+
+## Install
+
+`pi install npm:sylo-template-docx-writer` — or from the **Capability manager → Pi.dev package catalog** in Sylo (it appears in the Sylo packages strip).
+
+Releases publish automatically from GitHub Actions (npm trusted publishing, with provenance): bump `version` in `package.json`, commit, tag `vX.Y.Z`, push the tag.
