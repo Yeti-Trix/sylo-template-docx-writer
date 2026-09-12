@@ -4,14 +4,14 @@ Fill any standard Word `.docx` template from a **template bundle** — inject AI
 
 ## Enable
 
-**Capability manager → Sylo optional packages → Template docx writer → On** (installs python-docx) → **Restart broker** → `npm run bootstrap-pi`
+`pi install npm:sylo-template-docx-writer` — or install from the **Capability manager → Pi.dev package catalog** (Sylo packages strip) — then **Developer → Restart broker**. Needs Python 3 on PATH (the docx tools shell out to Python scripts).
 
 ## The three layers
 
 | Layer | What | Where |
 |-------|------|-------|
 | **Tools** (`manual_*`) | Generic inject/stage/build/render/image/table tools — operate on placeholders + a draft.docx | This package (`extensions/index.ts` + `scripts/`) |
-| **Process** | The shared workflow — pacing, placeholder→tool mapping, build order | Bundled workflow `build-docx-from-template.md` (in `sylo-workflows/shared/workflows/`) |
+| **Process** | The shared workflow — pacing, placeholder→tool mapping, build order | Workflow playbook from the author’s Sylo install (not bundled with the npm package — the tools + `template-bundle.spec.md` carry everything needed) |
 | **Bundle** | The template-specific data: the `.docx` skeleton, styles, section catalog, manifest | Operator-owned, git-backed: `sylo-user/docx-templates/<id>/` |
 
 A newcomer only needs to read **`template-bundle.spec.md`** (in this skill folder) to understand what files a bundle requires, then provide a bundle (or ask the agent to help build one). The agent loads the bundled workflow on demand.
